@@ -1,7 +1,10 @@
 import server from "./src/server";
+import "reflect-metadata";
+import { AppDataSource } from "./src/database/config/data-source";
 
-const PORT = 3000;
-
-server.listen(PORT, () => {
-  console.log(`server running on port ${PORT}`);
+AppDataSource.initialize().then((_res) => {
+  console.log("data base conection was successfully");
+  server.listen(process.env.PORT, () => {
+    console.log(`server running on port ${process.env.PORT}`);
+  });
 });
