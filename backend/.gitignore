@@ -1,1 +1,2 @@
-.env
+# pstsql_password
+*.env
