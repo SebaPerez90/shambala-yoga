@@ -5,13 +5,16 @@ const NavBar = () => {
     <nav>
       <ul>
         <li>
-          <Link to={"/home"}>Inicio</Link>
+          <Link to={"/home"}>inicio</Link>
         </li>
         <li>
-          <Link to={"/about"}>Sobre Nosotros</Link>
+          <Link to={"/about"}>sobre nosotros</Link>
         </li>
         <li>
-          <Link to={"/turns"}>Mis Turnos</Link>
+          <Link to={"/turns"}>turnos</Link>
+        </li>
+        <li>
+          <Link to={"/loguin"}>inicia sesión</Link>
         </li>
       </ul>
     </nav>
