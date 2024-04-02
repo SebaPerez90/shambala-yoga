@@ -1,16 +1,15 @@
-import { DatePicker } from "antd";
-import { Button } from "antd";
-import "../styles/home.css";
+import { useRef } from 'react';
+import '../styles/home.css';
 
 const Home = () => {
-
-
-
+  const myRef = useRef(null);
 
   return (
-    <h1>
+    <div
+      onClick={() => console.log(myRef)}
+      ref={myRef}>
       home component
-    </h1>
+    </div>
   );
 };
 

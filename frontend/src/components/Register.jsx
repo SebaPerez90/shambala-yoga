@@ -1,15 +1,18 @@
 import { FaRegUser } from 'react-icons/fa';
 import { MdOutlineMail } from 'react-icons/md';
 import { RiLockPasswordLine } from 'react-icons/ri';
+
+import PropTypes from 'prop-types';
+
 import '../styles/form.css';
 
 const Register = () => {
   return (
-    <div className='sign-up-container'>
+    <div className='register-container'>
       <h2>Crea una Cuenta</h2>
       <form
         id='register-form'
-        className='register-form-container'>
+        className='form-container'>
         <label
           className='label-item'
           htmlFor='full-name'>
@@ -67,6 +70,10 @@ const Register = () => {
       </form>
     </div>
   );
+};
+
+Register.propTypes = {
+  conditionalStyles: PropTypes.object,
 };
 
 export default Register;
