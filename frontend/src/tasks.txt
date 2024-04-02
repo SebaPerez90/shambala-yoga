@@ -1,21 +1,3 @@
-M3 CLASS 7 / REACT INTRO & ESTILOS
-
-✅DONE.
-
-
-M3 CLASS 8 / REACT DATA FLOW
-
-# create view "MyTurns"
-
-# create "helpers" folder and inside a module called "myTurns.js" that be an array with 
-  the following data -> id, date, time, status, description
-
-# inside the component "MyTurns.jsx" import the array with the users turns information and assign it into a local state
-
-# create a single card to display each turn. Use props 
-
-# import the turn card into a "MyTurns.jsx". For each iteration return a single turn assigning a prop with the necesary information
-
 
 M3 class 9 / REACT LIFECYCLE
 

@@ -1,0 +1,25 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em 1em;
+  background-color: #fff;
+
+  .nav-logo-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .navegation-links {
+    display: flex;
+    list-style: none;
+    gap: 4em;
+    margin-right: 2em;
+
+    li {
+      a {
+        text-transform: capitalize;
+        text-decoration: none;
+      }
+    }
+  }
+}

@@ -3,13 +3,14 @@ import { Button } from "antd";
 import "../styles/home.css";
 
 const Home = () => {
+
+
+
+
   return (
-    <>
-      <DatePicker />
-      <Button className="btn" type="primary">
-        Button
-      </Button>
-    </>
+    <h1>
+      home component
+    </h1>
   );
 };
 
