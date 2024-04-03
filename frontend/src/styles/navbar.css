@@ -2,23 +2,30 @@
   display: flex;
   justify-content: space-between;
   padding: 0.5em 1em;
-  background-color: #fff;
+  position: relative;
+  z-index: 40;
 
   .nav-logo-container {
     display: flex;
     align-items: center;
+    color: #fff;
+
+    span {
+      color: #47c1a0;
+    }
   }
 
   .navegation-links {
     display: flex;
     list-style: none;
-    gap: 4em;
+    gap: 3em;
     margin-right: 2em;
 
     li {
       a {
         text-transform: capitalize;
         text-decoration: none;
+        color: #fff;
       }
     }
   }

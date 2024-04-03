@@ -16,20 +16,5 @@ body {
     'Open Sans',
     'Helvetica Neue',
     sans-serif;
-    font-weight: 500;
-  /* position: relative;
-  z-index: 1; */
-  /* height: 100vh; */
-
-  /* &::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    left: 0;
-    top: 0;
-    background: url('../assets/asd.png') no-repeat center center;
-    background-size: cover;
-    z-index: -1;
-    height: 200vh;
-  } */
+  font-weight: 500;
 }
