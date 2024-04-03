@@ -10,6 +10,7 @@ const Form = () => {
 
   const changeViewForm = () => {
     const element = document.getElementById('sign-container');
+
     element.classList.toggle('sign-up');
     setLogued(!logued);
   };

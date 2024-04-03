@@ -21,6 +21,9 @@
       color: #f0f0f0;
       border: 2px solid wheat;
       padding: 1em;
+      opacity: 0;
+      animation: disappearContent 700ms linear forwards;
+      animation-delay: 300ms;
     }
   }
 
@@ -95,6 +98,12 @@
         border-radius: 25px;
       }
     }
+  }
+}
+
+@keyframes disappearContent {
+  to {
+    opacity: 1;
   }
 }
 
