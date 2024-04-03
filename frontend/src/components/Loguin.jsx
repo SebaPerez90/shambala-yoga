@@ -1,7 +1,16 @@
 import { MdOutlineMail } from 'react-icons/md';
 import { RiLockPasswordLine } from 'react-icons/ri';
 
-const Loguin = () => {
+import { useEffect } from 'react';
+
+import PropTypes from 'prop-types';
+
+const Loguin = ({ state }) => {
+  useEffect(() => {
+    const cont = document.querySelector('.loguin-container');
+    cont.classList.add('toggle-view-form')
+  }, [state]);
+
   return (
     <div className='loguin-container'>
       <h2>Inicia Sesión</h2>
@@ -49,6 +58,10 @@ const Loguin = () => {
       </form>
     </div>
   );
+};
+
+Loguin.propTypes = {
+  state: PropTypes.any,
 };
 
 export default Loguin;

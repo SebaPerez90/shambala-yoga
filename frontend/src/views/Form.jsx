@@ -9,16 +9,16 @@ const Form = () => {
   const [logued, setLogued] = useState(false);
 
   const changeViewForm = () => {
-    const element = document.getElementById('main-container');
-    console.log(element);
+    const element = document.getElementById('sign-container');
+    element.classList.toggle('sign-up');
     setLogued(!logued);
   };
 
   return (
-    <section
-      id='main-container'
-      className='main-container'>
-      <div className='sign-container'>
+    <section className='main-container'>
+      <div
+        id='sign-container'
+        className='sign-container'>
         <div className='header-content'>
           <h2>
             {logued
@@ -38,7 +38,7 @@ const Form = () => {
           {logued ? 'registrate' : 'inciar sesión'}
         </button>
       </div>
-      {logued ? <Loguin /> : <Register />}
+      {logued ? <Loguin state={logued} /> : <Register state={logued} />}
     </section>
   );
 };

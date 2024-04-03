@@ -2,8 +2,6 @@ import { FaRegUser } from 'react-icons/fa';
 import { MdOutlineMail } from 'react-icons/md';
 import { RiLockPasswordLine } from 'react-icons/ri';
 
-import PropTypes from 'prop-types';
-
 import '../styles/form.css';
 
 const Register = () => {
@@ -70,10 +68,6 @@ const Register = () => {
       </form>
     </div>
   );
-};
-
-Register.propTypes = {
-  conditionalStyles: PropTypes.object,
 };
 
 export default Register;

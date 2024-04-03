@@ -13,12 +13,30 @@
     align-items: center;
     justify-content: center;
     background-color: #47c1a0;
+    transition: all 700ms;
+    z-index: 20;
 
     .header-content {
       text-align: center;
       color: #f0f0f0;
       border: 2px solid wheat;
       padding: 1em;
+    }
+  }
+
+  .toggle-view-form {
+    transform: translate(-25em);
+    animation-delay: 400ms;
+  }
+
+  .sign-up {
+    transform: translateX(120%);
+    transition: all 600ms;
+
+    .header-content {
+      opacity: 0;
+      animation: appearContent 700ms linear forwards;
+      animation-delay: 300ms;
     }
   }
 
@@ -31,6 +49,7 @@
     flex-direction: column;
     align-items: center;
     opacity: 0;
+    z-index: 10;
     animation: appearContent 400ms linear forwards;
 
     .form-container {
