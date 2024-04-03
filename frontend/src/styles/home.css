@@ -2,7 +2,7 @@
 .hero-section {
   position: relative;
   z-index: 30;
-  height: 35em;
+  height: 40em;
   display: flex;
   flex-direction: column;
 
@@ -11,8 +11,8 @@
     top: -5em;
     position: absolute;
     width: 100%;
-    height: 35em;
-    background: linear-gradient(to bottom, #0000008f, #00000057);
+    height: 40em;
+    background: linear-gradient(to bottom, #00000096, #00000068);
     left: 0;
     bottom: 0;
     z-index: 10;
@@ -28,6 +28,11 @@
     font-weight: 700;
     font-style: normal;
     z-index: 20;
+
+    span {
+      color: #47c1a0;
+      font-size: 1.4em;
+    }
   }
 
   .book-container {
@@ -35,8 +40,10 @@
     position: relative;
     top: -3em;
     z-index: 20;
+
     p {
       color: #fff;
+      font-weight: 400;
     }
   }
 
