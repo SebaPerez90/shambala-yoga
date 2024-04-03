@@ -1,5 +1,6 @@
 import '../styles/home.css';
 import video from '../assets/video.mov';
+import SocialNetworks from '../components/SocialNetworks';
 
 const Home = () => {
   return (
@@ -12,7 +13,7 @@ const Home = () => {
           Vivir una vida libre de estrés, es posible.<br></br> Consigue tu
           primera clase de yoga gratis!
         </p>
-        <button>comienza ahora</button>
+        <button className='hero-btn'>comienza ahora</button>
       </div>
 
       <video
@@ -21,6 +22,8 @@ const Home = () => {
         loop
         muted
         src={video}></video>
+
+      <SocialNetworks />
     </main>
   );
 };

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cormorant:ital,wght@0,300..700;1,300..700&family=El+Messiri:wght@400..700&display=swap');
+
 .hero-section {
   position: relative;
   z-index: 30;
@@ -44,6 +45,17 @@
     p {
       color: #fff;
       font-weight: 400;
+    }
+
+    .hero-btn {
+      margin: 0 auto;
+      width: 15em;
+      padding: 1em 0em;
+      border-radius: 25px;
+      border: none;
+      font-weight: 700;
+      cursor: pointer;
+      color: #3e3e3e;
     }
   }
 
