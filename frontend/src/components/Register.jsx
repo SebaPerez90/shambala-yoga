@@ -10,7 +10,7 @@ const Register = () => {
       <h2>Crea una Cuenta</h2>
       <form
         id='register-form'
-        className='form-container'>
+        className='form'>
         <label
           className='label-item'
           htmlFor='full-name'>

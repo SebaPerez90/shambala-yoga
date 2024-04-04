@@ -16,7 +16,7 @@ const Loguin = ({ state }) => {
       <h2>Inicia Sesión</h2>
       <form
         id='register-form'
-        className='form-container'>
+        className='form'>
         <label
           className='label-item'
           htmlFor='email-address'>

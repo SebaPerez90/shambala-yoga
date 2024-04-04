@@ -17,4 +17,7 @@ body {
     'Helvetica Neue',
     sans-serif;
   font-weight: 500;
+  height: 100vh;
+  background-color: #8ec5fc;
+  background-image: linear-gradient(180deg, #8ec5fc 0%, #e0c3fc 100%);
 }

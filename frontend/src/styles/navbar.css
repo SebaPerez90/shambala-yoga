@@ -4,6 +4,7 @@
   padding: 0.5em 1em;
   position: relative;
   z-index: 40;
+  background-color: #2f2f2f51;
 
   .nav-logo-container {
     display: flex;

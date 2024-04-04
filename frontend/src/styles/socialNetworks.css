@@ -1,5 +1,6 @@
 .networks-container {
   display: flex;
+  /* flex-direction: column; */
   gap: 2em;
   z-index: 20;
   position: absolute;
