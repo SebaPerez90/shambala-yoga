@@ -1,0 +1,51 @@
+.navbar_container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em 1em;
+  position: relative;
+  z-index: 40;
+  background-color: #2f2f2f51;
+
+  .nav_logo_container {
+    display: flex;
+    align-items: center;
+    color: #fff;
+
+    span {
+      color: #47c1a0;
+    }
+  }
+
+  .navegation_links {
+    display: flex;
+    list-style: none;
+    gap: 3em;
+    margin-right: 2em;
+
+    li {
+      a {
+        text-transform: capitalize;
+        text-decoration: none;
+        color: #fff;
+      }
+    }
+
+    .login_btn,
+    .logout_btn {
+      display: flex;
+      align-items: center;
+      text-transform: capitalize;
+      gap: 0.4em;
+      color: #fff;
+      background: none;
+      border: none;
+      font-weight: 700;
+      cursor: pointer;
+      font-size: 1em;
+
+      > :first-child {
+        font-size: 1.5em;
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.main_container {
+  color: #fff;
+  border: 2px solid #ffff00;
+
+  .faq_container {
+    height: 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 2px solid cyan;
+    margin-top: 1em;
+    width: 50%;
+
+    .faq_question {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      z-index: 20;
+      padding: 1em 0;
+      background: red;
+
+      span {
+        font-size: 1.6em;
+      }
+    }
+
+    .faq_answer {
+      z-index: 10;
+      padding: 1.5em 1em;
+      background: blue;
+    }
+  }
+}

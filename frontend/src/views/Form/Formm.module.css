@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.main_container {
+  display: flex;
+  flex-direction: column;
+  background-color: #8ec5fc;
+  background-image: linear-gradient(180deg, #8ec5fc 0%, #e0c3fc 100%);
+  padding-bottom: 4em;
+  gap: 3em;
+
+  .header_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+      font-size: 5em;
+      width: 10em;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 900;
+      font-style: normal;
+    }
+    .description_message_cont {
+      font-size: 1.2em;
+      position: relative;
+      top: -2em;
+      color: #3b3b3b;
+
+      ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0;
+
+        li {
+          margin-left: -2.5em;
+          list-style-type: none;
+          margin-top: 1em;
+          font-size: 0.9em;
+        }
+      }
+    }
+  }
+
+  .form_container {
+    display: flex;
+    width: max-content;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 11px 28px 22px -4px #00000061;
+
+    .sign_container {
+      width: 30em;
+      height: 38em;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: #47c1a0;
+      transition: all 700ms;
+
+      .header_content {
+        text-align: center;
+        color: #f0f0f0;
+        padding: 0 2.5em;
+        opacity: 0;
+        animation: disappearContent 700ms linear forwards;
+        animation-delay: 300ms;
+
+        h2 {
+          font-size: 2em;
+        }
+      }
+
+      .sign_in_btn {
+        width: 15em;
+        padding: 1em 0em;
+        border-radius: 25px;
+        border: none;
+        font-weight: 700;
+        cursor: pointer;
+        color: #3e3e3e;
+      }
+    }
+
+    .sign_up {
+      transform: translateX(100%);
+      transition: all 600ms;
+
+      .header_content {
+        opacity: 0;
+        animation: appearContent 700ms linear forwards;
+        animation-delay: 300ms;
+      }
+    }
+  }
+}
+@keyframes dropShadow {
+  to {
+    box-shadow: none;
+  }
+}
+@keyframes disappearContent {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes appearContent {
+  to {
+    opacity: 1;
+  }
+}

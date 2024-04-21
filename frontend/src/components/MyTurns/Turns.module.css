@@ -1,0 +1,13 @@
+.cards_container {
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.turn_card {
+  display: flex;
+  gap: 1em;
+  border: 1px solid red;
+
+}

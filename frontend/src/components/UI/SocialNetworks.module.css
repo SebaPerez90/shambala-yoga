@@ -1,0 +1,107 @@
+.networks_container {
+  display: flex;
+  gap: 2em;
+  z-index: 20;
+  padding-right: 2.5em;
+
+  .list_item {
+    list-style: none;
+
+    .facebook {
+      position: relative;
+      color: #fff;
+      font-size: 1.2em;
+
+      &::after {
+        content: '';
+        position: absolute;
+        left: -0.7em;
+        top: -0.6em;
+        padding: 0.6em;
+        width: 120%;
+        height: 100%;
+        background-color: transparent;
+        border-radius: 30px;
+        transition: all 300ms;
+        z-index: -1;
+      }
+
+      &:hover::after {
+        background-color: #3f7fff59;
+        transition: all 300ms;
+      }
+    }
+
+    .instagram {
+      position: relative;
+      color: #fff;
+      font-size: 1.2em;
+
+      &::after {
+        content: '';
+        position: absolute;
+        left: -0.7em;
+        top: -0.6em;
+        padding: 0.6em;
+        width: 120%;
+        height: 100%;
+        background-color: transparent;
+        border-radius: 30px;
+        transition: all 300ms;
+        z-index: -1;
+      }
+      &:hover::after {
+        background-color: #ff00ae49;
+        transition: all 300ms;
+      }
+    }
+
+    .email {
+      position: relative;
+      color: #fff;
+      font-size: 1.2em;
+
+      &::after {
+        content: '';
+        position: absolute;
+        left: -0.7em;
+        top: -0.6em;
+        padding: 0.6em;
+        width: 120%;
+        height: 100%;
+        background-color: transparent;
+        border-radius: 30px;
+        transition: all 300ms;
+        z-index: -1;
+      }
+      &:hover::after {
+        background-color: #f726263e;
+        transition: all 300ms;
+      }
+    }
+
+    .whatsapp {
+      position: relative;
+      color: #fff;
+      font-size: 1.2em;
+
+      &::after {
+        content: '';
+        position: absolute;
+        left: -0.7em;
+        top: -0.6em;
+        padding: 0.6em;
+        width: 120%;
+        height: 100%;
+        background-color: transparent;
+        border-radius: 30px;
+        transition: all 300ms;
+        z-index: -1;
+      }
+      &:hover::after {
+        background-color: #62fd6438;
+        transition: all 300ms;
+      }
+    }
+  }
+}
