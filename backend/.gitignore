@@ -1,2 +1,5 @@
-# pstsql_password
 .env
+
+#modules
+node_modules
+
