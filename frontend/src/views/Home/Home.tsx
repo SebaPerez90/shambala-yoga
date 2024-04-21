@@ -1,7 +1,7 @@
 import SocialNetworks from '../../components/UI/SocialNetworks';
 import video from '../../assets/video.mov';
 import styles from './Home.module.css';
-import ClasesCard from '../Appointments/ClasesCard';
+// import ClasesCard from '../Appointments/ClasesCard';
 
 const Home = () => {
   return (
@@ -27,10 +27,10 @@ const Home = () => {
 
         <SocialNetworks />
       </main>
-      <div className={styles.pepe}>
+      {/* <div className={styles.pepe}>
         <h1>Nuestro Servicios</h1>
         <ClasesCard />
-      </div>
+      </div> */}
     </>
   );
 };
